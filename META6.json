@@ -1,0 +1,21 @@
+{
+  "perl": "6.d",
+  "name": "Elerille::APT",
+  "api": "0",
+  "auth": "github:elerille",
+  "version": "0.0.1",
+  "description": "An API for access to a APT repository (Debian)",
+  "authors": [ "Élerille" ],
+  "license": "GPL-3.0-or-later",
+  "provides": {
+    "Elerille::APT": "lib/Elerille/APT.rakumod"
+  },
+  "depends": [ ],
+  "build-depends": [ ],
+  "test-depends": [ 
+    "Test::META"
+  ],
+  "resources": [ ],
+  "tags": [ "APT", "deb", "Debian" ],
+  "source-url": "git://github.com/elerille/raku-elerille-apt.git"
+}
